@@ -1,5 +1,5 @@
 	interface Printable {
-	int d;
+	int d=300;
 	void print(); }
 	public class Test1 implements Printable {
 	public void print() {

@@ -1,19 +1,20 @@
-package com.lavanya;
+package com.java1;
 
 public class Stringdemo {
-	public static void main(String arg[]) {
-		String s1=" lavan ";
-		System.out.println(s1);
-		String s2=new String ("hai lavan");
-		System.out.println(s2);
-		String s3=new String(s1);
-		System.out.println(s3);
-		String s4=s2;
-		System.out.println(s1);
-		char[]ch= {'L','a','v','a','n','y','a'};
-		System.out.println(ch);
-		String s5=new String(ch,0,4);
-		System.out.println(s5);
-	}
-
+public static void main(String []lava) {
+	String s1=new String("Lavanya");
+	String s2="lavanya";
+	System.out.println(s1.hashCode());
+	System.out.println(s2.hashCode());
+	System.out.println(s1.length());
+	System.out.println(s1.isBlank());
+	System.out.println(s1.isEmpty());
+	System.out.println(s1.equals(s2));
+	System.out.println(s2.length());
+	System.out.println(s1.equalsIgnoreCase(s2));
+	System.out.println(s1.compareTo(s2));
+	System.out.println(s1.compareToIgnoreCase(s2));
+	System.out.println(s1.startsWith("L"));
+	System.out.println(s2.endsWith("a"));
+}
 }
